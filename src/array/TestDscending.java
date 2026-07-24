@@ -16,9 +16,6 @@ public class TestDscending {
 					arr[j] = temp;
 				}
 			}
-			
-			
-			
 			System.out.println(arr[i]);
 		}
 		

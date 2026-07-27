@@ -15,5 +15,4 @@ public class TestCharacterArray {
 			System.out.println(i);
 		}
 	}
-
 }

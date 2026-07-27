@@ -14,8 +14,6 @@ public class TestCharArray {
 		System.out.println("---------------");
 		for(char e : c) {
 			System.out.println(e);
-		}
-		
+		}		
 	}
-
 }

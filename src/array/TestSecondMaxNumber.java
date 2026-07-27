@@ -17,6 +17,7 @@ public class TestSecondMaxNumber {
 				secondmax = arr[i];
 			}
 		}
+		
 		System.out.println(secondmax);
 	}
 }

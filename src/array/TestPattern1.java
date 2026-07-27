@@ -10,5 +10,4 @@ public class TestPattern1 {
 			System.out.println();
 		}
 	}
-
 }

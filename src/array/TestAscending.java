@@ -19,8 +19,7 @@ public class TestAscending {
 			}
 			System.out.println(arr[i]);
 		}
-		
-		
+				
 //		Arrays.sort(arr);
 //		
 //		System.out.print("Numbers Accending order is : ");

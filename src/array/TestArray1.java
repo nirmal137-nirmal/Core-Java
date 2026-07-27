@@ -27,7 +27,5 @@ public class TestArray1 {
 		//Get  the Size if an Array
 		int size = table.length;
 		System.out.println("Size is " + size);
-	
 	}
-
 }

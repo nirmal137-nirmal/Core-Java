@@ -12,11 +12,11 @@ public class TestFindNumber {
 				count++;
 			}
 		}
+		
 		if(count == 0) {
 			System.out.println("Number is Not Exist");
 		}else {
 			System.out.println("Number is Exist");
 		}
 	}
-
 }

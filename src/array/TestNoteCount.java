@@ -14,6 +14,7 @@ public class TestNoteCount {
 		   amount = amount % note;
 		
 		}
+		
 
 		/*
 		 * for (int i = 0; i < notes.length; i++) {

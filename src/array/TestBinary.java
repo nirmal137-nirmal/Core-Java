@@ -19,6 +19,7 @@ public class TestBinary {
 
 			} else if (search > arr[mid]) {
 				low = mid + 1;
+				
 			} else {
 				high = mid - 1;
 			}

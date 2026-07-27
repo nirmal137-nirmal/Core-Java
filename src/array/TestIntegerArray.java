@@ -14,8 +14,5 @@ public class TestIntegerArray {
 		for (int i : arr) {
 			System.out.println(i);
 		}
-		
-	
 	}
-
 }

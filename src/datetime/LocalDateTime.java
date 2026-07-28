@@ -8,17 +8,17 @@ public class LocalDateTime {
 		LocalDate now = LocalDate.now();
 
 		System.out.println("today's: " + now);
-		/*
-		 * System.out.println("day of week: " + now.getDayOfWeek());
-		 * System.out.println("day of month: " + now.getDayOfMonth());
-		 * System.out.println("month: " + now.getMonth());
-		 * System.out.println("day of year: " + now.getDayOfYear());
-		 * System.out.println("year: " + now.getYear());
-		 */
+		
+		  System.out.println("day of week: " + now.getDayOfWeek());
+		  System.out.println("day of month: " + now.getDayOfMonth());
+		  System.out.println("month: " + now.getMonth());
+		  System.out.println("day of year: " + now.getDayOfYear());
+		  System.out.println("year: " + now.getYear());
+		 
 
 		System.out.println("--------------");
 
-		LocalDate dob = LocalDate.of(2005, 8, 02);
+		LocalDate dob = LocalDate.of(2001,07,13);
 
 		System.out.println("dob: " + dob);
 		System.out.println("dob day of week: " + dob.getDayOfWeek());

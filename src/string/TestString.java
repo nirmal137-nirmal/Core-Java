@@ -37,8 +37,6 @@ public class TestString {
 	    
 	    //surname p 
 	    System.out.println("Surname Name : " + s.substring(6, 10)); // 6th or 10th ke bich ke character print karega
-	    
-	    
   
 		}
 		

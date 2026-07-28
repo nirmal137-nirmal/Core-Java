@@ -13,7 +13,9 @@ public class Testdemo {
 		
 		System.out.println(sdf.format(d));
 		
-		String str = "2005-09-09";
+		System.out.println("-----------------------------------");
+		
+		String str = "2001-07-13";
 		
 		System.out.println(sdf.parse(str));
 	}

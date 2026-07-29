@@ -7,15 +7,15 @@ public class Account {
 		private String accountType;
 		private double balance;
 		
-		//for get name
-		public String getName() {
-			return name;		
-		}
+		
 		//for set Name
 		public void setName(String name) {
 			this.name = name;
-			
 		}
+		//for get name
+				public String getName() {
+					return name;		
+				}
 		
 		// For get number
 		public String  getNumber() {

@@ -1,4 +1,4 @@
-package test.co.corejava.stringbuffer;
+package in.co.corejava.stringbuffer;
 
 public class TestMath {
 	public static void main(String[] args) {

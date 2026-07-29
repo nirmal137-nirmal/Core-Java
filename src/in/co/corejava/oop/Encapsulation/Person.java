@@ -9,34 +9,38 @@ public class Person {
 	private String address;
 	private final static int AVG_AGE = 18;
 	
-	// to Get Name Mehtod
-	public String getName() {
-		return this.name;
-	}
+	
 	
 	//To set name Method
 	public void  setName(String name) {
 		this.name = name;	
 	}
 	
-	//to get Date Method
-	public Date getDob() {
-		return this.dob;
-	}
+	// to Get Name Mehtod
+		public String getName() {
+			return this.name;
+		}
+
 	
 	//to set Date Method
 	public void setDob(Date dob) {
 		this.dob = dob;
 	}
+	//to get Date Method
+		public Date getDob() {
+			return this.dob;
+		}
 	
-	// To Get Address Method
-	public String getAddress() {
-		return this.address;
-	}
 	
 	// To Set Address Method
 	public void setAddress(String address) {
 		this.address = address;
+	}
+	
+
+	// To Get Address Method
+	public String getAddress() {
+		return this.address;
 	}
 	
 	public int  getAge(Date dob) {

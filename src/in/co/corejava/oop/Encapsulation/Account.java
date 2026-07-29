@@ -16,35 +16,33 @@ public class Account {
 				public String getName() {
 					return name;		
 				}
-		
-		// For get number
-		public String  getNumber() {
-			return number;
-		}
+				
 		// for Set Number 
 		public void setNumber(String number) {
 			this.number = number;
 		}
+		// For get number
+				public String  getNumber() {
+					return number;
+				}				
 		
-		
-		// For Get Account Type
-		public String getAccountType() {
-			return accountType;
-		}		
 		//for set account type
 		public void setAccountType(String accountType) {
 			this.accountType = accountType;
 		}
-		
-		
-		// For Get Balance 
-		public double getBalance() {
-			return balance;
-		}
+		// For Get Account Type
+				public String getAccountType() {
+					return accountType;
+				}		
+	
 		//for set Balance 
 		public void setBalance(double balance) {
 			this.balance = balance;
 		}
+		// For Get Balance 
+				public double getBalance() {
+					return balance;
+				}
 		
 		//for Deposit
 		public void deposit(double amt) {

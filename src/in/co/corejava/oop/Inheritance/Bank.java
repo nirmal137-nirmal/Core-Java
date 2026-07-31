@@ -32,9 +32,4 @@ public class Bank {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
-	
-	
-	
-
 }

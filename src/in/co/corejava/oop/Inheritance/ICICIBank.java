@@ -5,6 +5,7 @@ public class ICICIBank extends Bank{
 	private String accountType;
 	private double minimumBalance;
 	private String  mobileBanking;
+	
 	public String getAccountType() {
 		return accountType;
 	}
@@ -23,8 +24,4 @@ public class ICICIBank extends Bank{
 	public void setMobileBanking(String mobileBanking) {
 		this.mobileBanking = mobileBanking;
 	}
-		
-	
-	
-
 }

@@ -10,3 +10,5 @@
 #Object
 #Encapsulation
 #Inheritance
+#abstraction
+

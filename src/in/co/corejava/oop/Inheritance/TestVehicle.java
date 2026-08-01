@@ -4,6 +4,8 @@ public class TestVehicle {
 	
 	public static void main(String[] args) {
 		
+		// Car, Bike, Bus
+		
 		System.out.println("---------------------------------------------");
 		
 		Car c = new Car();

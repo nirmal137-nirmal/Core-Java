@@ -1,4 +1,4 @@
-package in.co.corejava.oop.Inheritance.Overriding;
+package in.co.corejava.oop.Overriding;
 
 public class HDFCBank extends Bank {
 	

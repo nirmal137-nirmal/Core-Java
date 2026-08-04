@@ -1,15 +1,13 @@
 package in.co.corejava.oop.Polymorphism;
 
-public class HDFCBank extends Bank{
+public class HDFCBank extends Bank {
 	
-	@Override
 	public String getName() {
 		return "HDFC Bank";
 	}
 	
-	@Override
-	public double interestRate() {
-		return 14.0;
+	public double getinterestRate() {
+		return 10.10;
 	}
 
 }

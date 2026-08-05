@@ -1,13 +1,15 @@
 package in.co.corejava.oop.Polymorphism;
 
-public class AxisBank extends Bank{
-	
+public class AxisBank extends Bank {
+
+	@Override
 	public String getName() {
-		return "Axis Bank";
+		return "AxisBank";
 	}
-	
-	public double getinterestRate() {
-		return 11.2;
+
+	@Override
+	public double interestRate() {
+		return 11.25;
 	}
 
 }

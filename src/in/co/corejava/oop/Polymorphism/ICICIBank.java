@@ -1,12 +1,14 @@
 package in.co.corejava.oop.Polymorphism;
 
 public class ICICIBank extends Bank {
-	
+
+	@Override
 	public String getName() {
-		return "ICICI Bank";
+		return "ICICIBank";
 	}
-	
-	public double getinterestRate() {
+
+	@Override
+	public double interestRate() {
 		return 9.75;
 	}
 

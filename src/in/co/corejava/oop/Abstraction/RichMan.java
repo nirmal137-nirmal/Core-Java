@@ -1,6 +1,6 @@
 package in.co.corejava.oop.Abstraction;
 
-public interface Richman {
+public interface RichMan {
 	
 	public void earnMoney();
 	

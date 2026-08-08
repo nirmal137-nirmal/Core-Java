@@ -1,4 +1,4 @@
-package in.co.Exception;
+package in.co.corejava.Exception;
 
 public class UncheckedException1 {
 	public static void main(String[] args) {

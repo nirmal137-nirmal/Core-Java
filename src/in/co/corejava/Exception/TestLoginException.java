@@ -6,7 +6,7 @@ public class TestLoginException {
 		String login = "admin123";
 		
 		if(login == "admin") {
-			System.out.println("User Not Found");
+			System.out.println("User Found");
 		}else {
 			try {
 				throw new LoginException();

@@ -9,7 +9,7 @@ public class TestAccount {
 		
 		System.out.println("Current Balance " +a.getBalance());
 		
-		a.withdraw(2000.00);
+		a.withdraw(200.00);
 	}
 
 }

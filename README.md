@@ -12,6 +12,8 @@
 #Inheritance
 #abstraction Class 
 #overiding
+#MySQL
 #exception
+#Collection ---> Interfaces ------> List , Set, Queue.
 
 

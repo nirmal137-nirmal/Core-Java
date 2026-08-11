@@ -16,6 +16,7 @@ public class TestBinary {
 			if (arr[mid] == search) {
 				System.out.println("Element Found at Index :" + mid);
 				break;
+				
 
 			} else if (search > arr[mid]) {
 				low = mid + 1;

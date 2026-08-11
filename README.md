@@ -14,6 +14,6 @@
 #overiding
 #MySQL
 #exception
-#Collection ---> Interfaces ------> List , Set, Queue.
+#Collection Framework---> Interfaces ------> List , Set, Queue.
 
 

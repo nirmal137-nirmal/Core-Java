@@ -34,7 +34,7 @@ This repository contains practical examples and programs covering important **Co
 - delete()
 - reverse()
 
----
+-----------------------------------------*-------------------------------------*---------------------------------------*
 
 ## 🔷 OOP (Object-Oriented Programming)
 
@@ -70,7 +70,7 @@ This repository contains practical examples and programs covering important **Co
 - Method overriding rules
 - `@Override` annotation
 
----
+------------------*------------------------------------------------*-------------------------------------------------------*
 
 ## 🗄️ MySQL
 
@@ -87,7 +87,7 @@ This repository contains practical examples and programs covering important **Co
 - Primary Key
 - Foreign Key
 
----
+--------------------------*--------------------------*-------------------------------------------------------------------------*
 
 ## ⚠️ Exception Handling
 
@@ -100,10 +100,9 @@ This repository contains practical examples and programs covering important **Co
 - Checked Exception
 - Unchecked Exception
 - Custom Exception
+-------------------------*--------------------------*---------------------------------------------------------------------------*
 
----
-
-## 📦 Collection Framework
+  ## 📦 Collection Framework
 
 ### Interfaces
 
@@ -123,4 +122,4 @@ This repository contains practical examples and programs covering important **Co
 - Deque
 - ArrayDeque
 
----
+----------------------------------*-------------------------------------------*-----------------------------------------------------*

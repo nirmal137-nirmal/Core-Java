@@ -8,20 +8,20 @@ import java.util.TreeSet;
 //does not contain duplicate value
 
 public class TestSortedSet {
-	
+
 	public static void main(String[] args) {
-		
-	 SortedSet s = new TreeSet();
-	 
-	 s.add("Nirmal");
-	 s.add("Abhishek");
-	 s.add("Gourav");
-	 
-	 System.out.println(s);
-	 
-	 // Remove element 
-	 s.remove("Gourav");
-	 System.out.println(s);
+
+		SortedSet s = new TreeSet();
+
+		s.add("Nirmal");
+		s.add("Abhishek");
+		s.add("Gourav");
+
+		System.out.println(s);
+
+		// Remove element
+		s.remove("Gourav");
+		System.out.println(s);
 	}
 
 }

@@ -122,6 +122,12 @@ This repository contains practical examples and programs covering important **Co
 - Deque
 - ArrayDeque
 
+#### Map
+- HashMap
+- LinkedHashMap
+- TreeMap
+- Hashtable
+
 ----------------------------------*-------------------------------------------*------------------------------------------------*
 **####Iterator and Enumeration**
 

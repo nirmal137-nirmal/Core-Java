@@ -100,6 +100,7 @@ This repository contains practical examples and programs covering important **Co
 - Checked Exception
 - Unchecked Exception
 - Custom Exception
+
 -------------------------*--------------------------*---------------------------------------------------------------------------*
 
   ## 📦 Collection Framework

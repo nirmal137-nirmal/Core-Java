@@ -2,8 +2,6 @@ package in.co.collection.ListInterface;
 
 import java.util.Vector;
 
-
-
 //vector increase double of its size
 //thread safe
 //slow performance
@@ -13,11 +11,18 @@ public class TestVector {
 		
 		Vector v =  new Vector();
 		
-		v.addElement(("Nirmal"));
-		v.addElement(45);
+		//v.addElement("Nirmal");
+		//v.addElement(45);
+		//v.addElement(20);
 		
-		System.out.println(v.elementAt(1));
+	v.add("Nirmal");
+	v.add("Bhushan");
+		
+		//System.out.println(v.elementAt(1));
 		System.out.println(v.get(1));
+		System.out.println(v);
+		
+		
 	}
 
 }

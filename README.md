@@ -100,6 +100,7 @@ This repository contains practical examples and programs covering important **Co
 - Checked Exception
 - Unchecked Exception
 - Custom Exception
+
 -------------------------*--------------------------*---------------------------------------------------------------------------*
 
   ## 📦 Collection Framework
@@ -122,4 +123,32 @@ This repository contains practical examples and programs covering important **Co
 - Deque
 - ArrayDeque
 
-----------------------------------*-------------------------------------------*-----------------------------------------------------*
+#### Map
+- HashMap
+- LinkedHashMap
+- TreeMap
+- Hashtable
+
+----------------------------------*-------------------------------------------*------------------------------------------------*
+
+
+#### Iterator and Enumeration
+
+##### Iterator
+
+Iterator is used to traverse elements of a collection one by one.
+
+Methods:
+
+#### hasNext() – Checks if another element exists.
+#### next() – Returns the next element.
+#### remove() – Removes the current element.
+
+#### Enumeration
+
+Enumeration is a legacy interface used mainly with Vector and Hashtable.
+
+Methods:
+
+#### hasMoreElements() – Checks if more elements exist.
+#### nextElement() – Returns the next element.

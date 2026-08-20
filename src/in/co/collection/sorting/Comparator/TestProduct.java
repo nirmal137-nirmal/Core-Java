@@ -31,7 +31,7 @@ public class TestProduct {
 		l.forEach(System.out::println);
 		System.out.println();
 
-		System.out.println("----------order by Name------------");
+		System.out.println("----------Sort by Name------------");
 
 		TestProductName byName = new TestProductName();
 
@@ -40,7 +40,7 @@ public class TestProduct {
 		l.forEach(System.out::println);
 
 		System.out.println();
-		System.out.println("----------ordered by category --------");
+		System.out.println("----------Sort by category --------");
 		
 
 		TestCategory byCategory = new TestCategory();
@@ -50,7 +50,7 @@ public class TestProduct {
 		l.forEach(System.out::println);
 		
 		System.out.println();
-		System.out.println("-------Ordered By Price ----------------");
+		System.out.println("-------Sort By Price ----------------");
 		
 		
 		TestPrice byprice = new TestPrice();

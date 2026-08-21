@@ -152,3 +152,37 @@ Methods:
 
 #### hasMoreElements() – Checks if more elements exist.
 #### nextElement() – Returns the next element.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+# Comparable and Comparator in Java
+
+## 🔄 Comparable vs Comparator
+
+- **Comparable Interface** → `java.lang` package
+- **Method** → `compareTo()`
+- `compareTo()` is an **abstract method** of the `Comparable` interface.
+- The class implements `Comparable<T>`.
+- Used for **natural/default sorting**.
+- Generally used to define sorting based on the object's **primary/default attribute**.
+- The sorting logic is defined **inside the class itself**.
+
+Java provides two interfaces to sort objects based on different criteria:
+
+- **Comparable** → Natural/default sorting
+- **Comparator** → Custom sorting
+- **Comparator Interface** → `java.util` package
+- **Method** → `compare()`
+- Used for **custom sorting**.
+- We can sort objects based on **any attribute/field**, such as:
+  - `id`
+  - `name`
+  - `age`
+  - `salary`
+  - `price`
+- Multiple sorting criteria can be created for the same class.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+

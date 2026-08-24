@@ -184,5 +184,24 @@ Java provides two interfaces to sort objects based on different criteria:
 
 ------------------------------------------------------------------------------------------------------------------------------
 
+## 📦 Wrapper Class in Java
+
+A **Wrapper Class** in Java converts primitive data types into objects.
+
+### 🔹 Primitive Types and Wrapper Classes
+
+| Primitive | Wrapper Class |
+|---|---|
+| `byte` | `Byte` |
+| `short` | `Short` |
+| `int` | `Integer` |
+| `long` | `Long` |
+| `float` | `Float` |
+| `double` | `Double` |
+| `char` | `Character` |
+| `boolean` | `Boolean` |
+
+------------------------------------------------------------------------------------------------------------------------------
+
 
 

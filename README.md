@@ -184,5 +184,58 @@ Java provides two interfaces to sort objects based on different criteria:
 
 ------------------------------------------------------------------------------------------------------------------------------
 
+## 📦 Wrapper Class in Java
+
+A **Wrapper Class** in Java converts primitive data types into objects.
+
+### 🔹 Primitive Types and Wrapper Classes
+
+| Primitive | Wrapper Class |
+|---|---|
+| `byte` | `Byte` |
+| `short` | `Short` |
+| `int` | `Integer` |
+| `long` | `Long` |
+| `float` | `Float` |
+| `double` | `Double` |
+| `char` | `Character` |
+| `boolean` | `Boolean` |
+
+-------------------------------------------------------------------------------------------------------------------------------
+## 📥📤 I/O (Input/Output) in Java
+
+**I/O (Input/Output)** in Java is used to read data from an input source and write data to an output destination.
+
+### 🔹 Types of I/O
+
+1. **Input** → Reading data into the program.
+2. **Output** → Sending data from the program to another destination.
+
+### 🔹 Java I/O Packages
+
+| Package | Purpose |
+|---|---|
+| `java.io` | File and stream-based I/O |
+| `java.nio` | Modern and efficient I/O operations |
+
+### 🔹 Common I/O Classes
+
+| Class | Use |
+|---|---|
+| `File` | Represents a file or directory |
+| `FileInputStream` | Reads byte data from a file |
+| `FileOutputStream` | Writes byte data to a file |
+| `FileReader` | Reads character data |
+| `FileWriter` | Writes character data |
+| `BufferedReader` | Reads text efficiently |
+| `BufferedWriter` | Writes text efficiently |
+| `PrintWriter` | Writes formatted text |
+| `InputStream` | Base class for byte input |
+| `OutputStream` | Base class for byte output |
+| `Reader` | Base class for character input |
+| `Writer` | Base class for character output |
+
+----------------------------------------------------------------------------------------------------------------------------------
+
 
 

@@ -13,6 +13,7 @@ public class StreamHighestSalary {
 		list.add(1000);
 		list.add(400000);
 		list.add(500200);
+		list.add(1000);
 		list.add(700001);
 		list.add(900000);
 		

@@ -30,7 +30,7 @@ public class TestFileSplit {
 		for(int i = 1; i <= count; i++) {
 			String line = br.readLine();
 			System.out.println("Create file " + i +  "for line : " + line);
-			BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Project-workspace\\IO-folder\\Split1" + i + ".txt"));
+			BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Project-workspace\\IO-folder\\Split" + i + ".txt"));
 			bw.write(line);
 			bw.close();
 		}

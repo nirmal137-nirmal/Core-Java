@@ -70,7 +70,7 @@ This repository contains practical examples and programs covering important **Co
 - Method overriding rules
 - `@Override` annotation
 
-------------------*------------------------------------------------*-------------------------------------------------------*
+---------------------------------------------------------------------------------------------------------------
 
 ## 🗄️ MySQL
 
@@ -87,7 +87,7 @@ This repository contains practical examples and programs covering important **Co
 - Primary Key
 - Foreign Key
 
---------------------------*--------------------------*-------------------------------------------------------------------------*
+---------------------------------------------------------------------------------------------------------------------------
 
 ## ⚠️ Exception Handling
 
@@ -101,7 +101,7 @@ This repository contains practical examples and programs covering important **Co
 - Unchecked Exception
 - Custom Exception
 
--------------------------*--------------------------*---------------------------------------------------------------------------*
+------------------------------------------------------------------------------------------------------------------------------
 
   ## 📦 Collection Framework
 
@@ -129,7 +129,7 @@ This repository contains practical examples and programs covering important **Co
 - TreeMap
 - Hashtable
 
-----------------------------------*-------------------------------------------*------------------------------------------------*
+---------------------------------------------------------------------------------------------------------------------------
 
 
 #### Iterator and Enumeration
@@ -234,6 +234,25 @@ A **Wrapper Class** in Java converts primitive data types into objects.
 | `OutputStream` | Base class for byte output |
 | `Reader` | Base class for character input |
 | `Writer` | Base class for character output |
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+#### Java Stream API
+
+The Stream API was introduced in Java 8 to process collections of objects in a clean, readable, and functional-style way. It is mainly used to perform operations such as filtering, sorting, mapping, searching, and collecting data.
+
+## Key Features
+Process data from Collections, Lists, Sets, Arrays, etc.
+Supports functional-style programming.
+Makes data processing concise and readable.
+Supports operations like filter(), map(), sorted(), forEach(), and collect().
+Stream does not store data; it processes data from a source.
+Streams can be used for sequential as well as parallel processing.
+
+
+## Basic Stream Flow
+
+Source → Intermediate Operations → Terminal Operation
 
 ----------------------------------------------------------------------------------------------------------------------------------
 

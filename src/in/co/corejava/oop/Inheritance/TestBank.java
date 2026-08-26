@@ -66,7 +66,7 @@ public class TestBank {
 		System.out.println("Adress : " + i.getAddress());
 		System.out.println("Account Type : " + i.getAccountType());
 		System.out.println("Minimum Balance : " + i.getMinimumBalance());
-		System.out.println("Moboile Banking  : " + i.getMobileBanking());
+		System.out.println("Mobile Banking  : " + i.getMobileBanking());
 
 	}
 

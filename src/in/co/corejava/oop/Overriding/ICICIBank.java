@@ -9,7 +9,6 @@ public class ICICIBank extends Bank {
 //	public double getinterestRate() {
 //		return 9.0;
 //	}
-	
-	
+
 
 }

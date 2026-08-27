@@ -7,7 +7,7 @@ import java.io.ObjectOutput;
 
 public class Employee implements Externalizable {
 
-	public int id;
+	public transient int id;
 	public String name;
 
 	public Employee() {
@@ -28,7 +28,7 @@ public class Employee implements Externalizable {
 	@Override
 	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
 		name = (String) in.readObject();
-		id = in.readInt();
+		//id = in.readInt();
 
 	}
 

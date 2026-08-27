@@ -11,7 +11,7 @@ public class TestEmployeeExternalizable {
 		
 		Employee e = new Employee(1, "Ram");
 		
-		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("C:\\Project-workspace\\IO-folder\\EmployeeExternalizable"));
+		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("C:\\Project-workspace\\IO-folder\\EmployeeExternalizable.txt"));
 		
 		out.writeObject(e);
 		
@@ -19,7 +19,7 @@ public class TestEmployeeExternalizable {
 		
 		System.out.println("Object Serialized Successfully");
 		
-		ObjectInputStream in = new ObjectInputStream(new FileInputStream("C:\\Project-workspace\\IO-folder\\EmployeeExternalizable"));
+		ObjectInputStream in = new ObjectInputStream(new FileInputStream("C:\\Project-workspace\\IO-folder\\EmployeeExternalizable.txt"));
 		
 		System.out.println(in.readObject());
 		

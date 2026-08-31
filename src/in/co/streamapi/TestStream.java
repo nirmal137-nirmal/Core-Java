@@ -25,7 +25,7 @@ public class TestStream {
 
 		System.out.println(" ---------------------------- ");
 
-		list.stream(); // forEach(System.out::println);
+		list.stream(); // forEach(System.out::println); // Method
 		System.out.println(list);
 
 		System.out.println("------------------------------");

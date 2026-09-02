@@ -256,12 +256,12 @@ Source → Intermediate Operations → Terminal Operation
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
-Java I/O (Input/Output)
+# Java I/O (Input/Output)
 📌 Overview
 
-This project demonstrates the concept of Java I/O (Input/Output) operations.
+# This project demonstrates the concept of Java I/O (Input/Output) operations.
 
-Java I/O is used to read data from input sources and write data to output destinations such as files, console, and other streams.
+#  Java I/O is used to read data from input sources and write data to output destinations such as files, console, and other streams.
 
 📂 Concepts Covered
 File Handling
@@ -282,12 +282,19 @@ Eclipse IDE
 import java.io.*;
 🔑 Common Classes
 Class	Description
-File	: Represents a file or directory
-FileInputStream : 	Reads byte data from a file
-FileOutputStream	: Writes byte data to a file
-FileReader	: Reads character data
-FileWriter :	Writes character data
-BufferedReader	: Reads text efficiently
+
+File	: Represents a file or directory,
+
+FileInputStream : 	Reads byte data from a file,
+
+FileOutputStream	: Writes byte data to a file,
+
+FileReader	: Reads character data,
+
+FileWriter :	Writes character data,
+
+BufferedReader	: Reads text efficiently,
+
 BufferedWriter : Writes text efficiently
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------

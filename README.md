@@ -299,5 +299,14 @@ BufferedWriter : Writes text efficiently
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Serialization and Deserialization in Java
+📌 Serialization
+
+# Serialization is the process of converting a Java object into a byte stream. This byte stream can be saved to a file or transferred over a network.
+
+📌 Deserialization
+
+# Deserialization is the process of converting a byte stream back into a Java object.
+
 
 

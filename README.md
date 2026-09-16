@@ -327,23 +327,14 @@ There are two common ways to create a thread in Java:
 1. Extending the `Thread` class
 2. Implementing the `Runnable` interface
 
-### Example: Using Thread Class
-
-```java
-class MyThread extends Thread {
-
-    @Override
-    public void run() {
-        System.out.println("Thread is running...");
-    }
-
-    public static void main(String[] args) {
-
-        MyThread t = new MyThread();
-
-        t.start();
-    }
-}
-
+## 🔹 Important Thread Methods
+Method	Description
+start()	Starts a new thread
+run()	Contains the task executed by the thread
+sleep()	Pauses the thread for a specific time
+join()	Waits for another thread to finish
+isAlive()	Checks whether a thread is running
+getName()	Returns the thread name
+setName()	Sets the thread name
 
 

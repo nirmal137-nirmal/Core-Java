@@ -329,12 +329,19 @@ There are two common ways to create a thread in Java:
 
 ## 🔹 Important Thread Methods
 Method	Description
+
 start()	Starts a new thread
+
 run()	Contains the task executed by the thread
+
 sleep()	Pauses the thread for a specific time
+
 join()	Waits for another thread to finish
+
 isAlive()	Checks whether a thread is running
+
 getName()	Returns the thread name
+
 setName()	Sets the thread name
 
 

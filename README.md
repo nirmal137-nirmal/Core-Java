@@ -308,5 +308,42 @@ Serialization is the process of converting a Java object into a byte stream. Thi
 
 Deserialization is the process of converting a byte stream back into a Java object.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+## 🧵 Thread in Java
+
+A **Thread** is a lightweight subprocess that allows a Java program to perform multiple tasks concurrently.
+
+### 🔹 Why Use Threads?
+
+- Perform multiple tasks simultaneously
+- Improve application performance
+- Make applications more responsive
+- Execute background tasks independently
+
+### 🔹 Creating a Thread
+
+There are two common ways to create a thread in Java:
+
+1. Extending the `Thread` class
+2. Implementing the `Runnable` interface
+
+### Example: Using Thread Class
+
+```java
+class MyThread extends Thread {
+
+    @Override
+    public void run() {
+        System.out.println("Thread is running...");
+    }
+
+    public static void main(String[] args) {
+
+        MyThread t = new MyThread();
+
+        t.start();
+    }
+}
+
 
 
